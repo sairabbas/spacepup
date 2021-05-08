@@ -42,6 +42,9 @@ To reserve a room:
 
 To add a room:
 
+To remove a room:
+1) A reserved room can not be deleted
+
 To run the program after pulling:
 1) Install and link Postgres via application.properties
 2) 
