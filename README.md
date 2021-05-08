@@ -35,9 +35,13 @@ Screenshots
 ------------------------------------------------------------------
 How to run the project:
 
-1) ![SpaceDoggo](https://user-images.githubusercontent.com/39139814/117551175-46887e80-aff9-11eb-8e5e-02d42de54b49.png)
+To reserve a room:
+1) Name must be more than 2 characters
+2) Must be older than 13
+3) Valid Email Provided
 
-2) 
+To add a room:
+
 
 ------------------------------------------------------------------
 Diagrams
