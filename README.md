@@ -34,6 +34,7 @@ Screenshots
 
 ------------------------------------------------------------------
 How to run the project:
+*For Best Results use Google Chrome*
 
 To reserve a room:
 1) Name must be more than 2 characters
