@@ -3,7 +3,7 @@ import { Container, Input, Button, Label, Form, FormGroup } from 'reactstrap';
 import { Link } from 'react-router-dom';
 import { store } from 'react-notifications-component';
 import 'react-notifications-component/dist/theme.css';
-import 'animate.css';
+import '../../../../../../Desktop/spacepup-master/frontend/ticket_master/node_modules/animate.css/animate.css';
 
 import AppNav from './AppNav';
 
