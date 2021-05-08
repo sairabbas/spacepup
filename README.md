@@ -42,7 +42,9 @@ To reserve a room:
 
 To add a room:
 
-
+To run the program after pulling:
+1) Install and link Postgres via application.properties
+2) 
 ------------------------------------------------------------------
 Diagrams
 
