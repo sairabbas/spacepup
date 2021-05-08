@@ -18,7 +18,7 @@ Daniel Tran
 Project Description
 
 REQUIRED LIBRARIES
-- MySQL
+- PostgreSQL
 - Apache
 - WAMPP
 - Node.js
