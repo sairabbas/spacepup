@@ -57,7 +57,7 @@ class EditEvent extends Component {
         const title = <h3>Edit Form</h3>
 
         return (
-            <div>
+            <div style={{backgroundColor: '#8AC7DB'}}>
                 <AppNav />
                 <Container>
                     {title}

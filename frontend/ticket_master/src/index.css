@@ -1,18 +1,27 @@
+* {
+  background-color: #8AC7DB;
+  color: black;
+}
+
 body {
+  color: ghostwhite;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-ssmoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;;
 }
 
 code {
+  color: ghostwhite;
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
-.boxed {
+.boxed{
+  background-color: ghostwhite;
+  color: black;
   float: left;
   width: 250px;
   margin-left: 10px;
@@ -24,5 +33,6 @@ code {
 }
 
 .center {
+  color: ghostwhite;
   text-align: center;
 }

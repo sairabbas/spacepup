@@ -24,7 +24,7 @@ class Admin extends Component {
         const {isLoading} = this.state;
 
         if(isLoading)
-             return (<div>Loading...</div>);
+             return (<div style={{backgroundColor: '#8AC7DB'}}>Loading...</div>);
 
         let rows = this.state.bookings.map((booking, i) => 
             <tr>
@@ -37,12 +37,12 @@ class Admin extends Component {
         )
 
         return (
-            <div>
+            <div style={{backgroundColor: '#8AC7DB'}}>
                 <AppNav />
-                <Button color="primary" tag={Link} to="/event" style={{margin: '10px', float: 'right'}}>Create an Event</Button>
+                <Button color="primary" tag={Link} to="/event" style={{margin: '10px', float: 'right'}}>Create a Room</Button>
                 {''}
                     <Container>
-                        <h3 style={{marginTop: '20px'}}>Booking List</h3>
+                        <h3 style={{display: 'flex', justifyContent: 'center', alignItems: 'center', marginTop: '20px'}}>Booking List</h3>
                         <Table className="mt-4">
                             <thead>
                                 <tr>
@@ -50,7 +50,7 @@ class Admin extends Component {
                                     <th width="20%">Last Name</th>
                                     <th width="10%">Age</th>
                                     <th width="30%">Email</th>
-                                    <th width="20%">Event</th>   
+                                    <th width="20%">Room</th>
                                 </tr>
                             </thead>
 

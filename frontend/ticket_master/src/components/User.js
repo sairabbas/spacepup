@@ -34,13 +34,14 @@ class User extends Component {
         return (
             <div>
                 <AppNav />
+                <h1 style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}} >Available Rooms</h1>
                 {
                     Events.map(event => 
                         <div id={event.id} className="boxed" style={{ justifyContent: 'center'}}>
                             <h3>{event.name}</h3>
                             <Moment format="DD/MM/YYYY">{event.event_date}</Moment>
                             <hr />
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <p>Blew up and I'm in the city still, I'm still here, dawg</p>
                             <Button 
                                 color="primary"
                                 onClick={() => this.bookEvent(event.id)}

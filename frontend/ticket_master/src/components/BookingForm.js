@@ -57,9 +57,9 @@ class BookingForm extends Component {
     }
 
     render() {
-        const title = <h3>Booking Form</h3>
+        const title = <h3 style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>Booking Information</h3>
         return (
-            <div>
+            <div style={{backgroundColor: '#8AC7DB'}}>
             <AppNav />
             <Container>
                 {title}

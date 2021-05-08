@@ -90,11 +90,11 @@ class EventForm extends Component {
     }
 
     render() {
-        const title = <h3 style={{marginTop: '10px'}}>Event Form</h3>
+        const title = <h3 style = {{display: 'flex', justifyContent: 'center', alignItems: 'center', marginTop: '10px'}}>Room Information</h3>
         const {events, isLoading} = this.state;
 
         if(isLoading)
-             return (<div>Loading...</div>);
+             return (<div style={{backgroundColor: '#8AC7DB'}}>Loading...</div>);
 
         let rows = events.map(event => 
             <tr key={event.id}>
@@ -106,13 +106,13 @@ class EventForm extends Component {
         )
 
         return (
-            <div>
+            <div style={{backgroundColor: '#8AC7DB'}}>
                 <AppNav />
                 <Container>
                     {title}
                     <Form onSubmit={this.handleSubmit}>
                         <FormGroup>
-                            <Label for="name">Title</Label>
+                            <Label for="name">Room Number</Label>
                             <Input type="text" name="name" id="name" value={this.state.item.name}
                                 onChange={this.handleChange} autoComplete="name" />
                         </FormGroup>
@@ -131,11 +131,11 @@ class EventForm extends Component {
 
                 {''}
                     <Container>
-                        <h3>Events List</h3>
+                        <h3 style = {{display: 'flex', justifyContent: 'center', alignItems: 'center', marginTop: '10px'}}>Available Rooms</h3>
                         <Table className="mt-4">
                             <thead>
                                 <tr>
-                                    <th width="30%">Name</th>   
+                                    <th width="30%">Number</th>
                                     <th>Date</th>
                                     <th width="10%">Action</th>
                                 </tr>
