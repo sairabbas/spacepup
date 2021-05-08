@@ -1,4 +1,5 @@
 # spacepup
+![SpaceDoggo](https://user-images.githubusercontent.com/39139814/117551180-4d16f600-aff9-11eb-8dc6-f20cf144ce1f.png)
 
 ------------------------------------------------------------------
 San Jose State University
@@ -34,7 +35,8 @@ Screenshots
 ------------------------------------------------------------------
 How to run the project:
 
-1) Change username/password in applications.properties to your own 
+1) ![SpaceDoggo](https://user-images.githubusercontent.com/39139814/117551175-46887e80-aff9-11eb-8e5e-02d42de54b49.png)
+
 2) 
 
 ------------------------------------------------------------------
