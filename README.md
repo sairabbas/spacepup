@@ -34,6 +34,10 @@ Screenshots
 
 ------------------------------------------------------------------
 How to run the project:
+
+------------------------------------------------------------------
+General Guidelines
+
 *For Best Results use Google Chrome*
 
 To reserve a room:
