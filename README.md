@@ -97,6 +97,7 @@ Database Schema (Original)
 
 
 Database Schema (Current)
+
 <img width="453" alt="Screen Shot 2021-05-10 at 3 30 33 PM" src="https://user-images.githubusercontent.com/10037700/117732441-c1da6380-b1a4-11eb-8fd2-0b47eb1abf70.png">
 
 
