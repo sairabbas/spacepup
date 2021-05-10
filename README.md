@@ -48,24 +48,29 @@ Booking a room
 ------------------------------------------------------------------
 How to run the project:
 
+1) Clone Repository
+2) Install and link Postgres database via application.properties
+3) Start Backend via BackendApplication or through normal IDE operations
+4) In terminal, navigate to frontend directory, Run Command "npm install" followed by "npm start"
+5) Navigate to http://localhost:3000 in your browser of choice*
+
+* *For Best Results use Google Chrome*
 ------------------------------------------------------------------
 General Guidelines
 
-*For Best Results use Google Chrome*
 
 To reserve a room:
 1) Name must be more than 2 characters
 2) Must be older than 13
 3) Valid Email Provided
+4) Reservation Date must be in the future
 
 To add a room:
+1) An availability date must be in the futurte
 
-To remove a room:
+To modify a room:
 1) A reserved room can not be deleted
-
-To run the program after pulling:
-1) Install and link Postgres via application.properties
-2) 
+2) A reserved room can be edited
 ------------------------------------------------------------------
 Diagrams
 
