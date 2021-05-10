@@ -30,7 +30,8 @@ REQUIRED LIBRARIES
 ------------------------------------------------------------------
 Screenshots
 
-https://media.discordapp.net/attachments/799035609247252510/841408321269006357/unknown.png?width=1308&height=675
+![unknown](https://user-images.githubusercontent.com/39139814/117719341-217b4380-b192-11eb-9f6b-06dea482f66b.png)
+
 
 ------------------------------------------------------------------
 How to run the project:
