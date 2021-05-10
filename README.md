@@ -18,6 +18,13 @@ Daniel Tran
 ------------------------------------------------------------------
 Project Description
 
+Spacepup is a hotel room reservation system where it contains dual functionalities for both admins and guests
+Depending on the the view you pick while on the application it will provide different privileges 
+
+If under the admin view, your privileges are being able to see a list of people who reserved rooms, as well as create/modify/delete rooms 
+
+If under the user view, your privileges are being able to reserve a room with the credentials you provide
+
 
 ------------------------------------------------------------------
 REQUIRED LIBRARIES
