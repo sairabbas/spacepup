@@ -45,7 +45,7 @@ public class UserController {
             notes = "Provide first name of minimum 2 characters, correctly formatted email, age greater than 13 " +
                     "and id of existing event to book an event")
     ResponseEntity<User> createUser(@Valid @RequestBody User user) throws URISyntaxException {
-        if (user.getAge() <= 13) {
+        if (user.getAge() <= 17) {
             throw new ApiRequestException(ApiRequestException.VALID);
         }
         User result = userRepository.save(user);
