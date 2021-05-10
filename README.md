@@ -83,3 +83,20 @@ To modify a room:
 ------------------------------------------------------------------
 Diagrams
 
+System Diagrams
+<img width="677" alt="Screen Shot 2021-05-10 at 3 27 30 PM" src="https://user-images.githubusercontent.com/10037700/117732186-44aeee80-b1a4-11eb-904e-aeb1a1055503.png">
+
+Class Diagram for Spring Boot Application
+<img width="567" alt="Screen Shot 2021-05-10 at 3 28 12 PM" src="https://user-images.githubusercontent.com/10037700/117732242-614b2680-b1a4-11eb-9356-68db26a0055f.png">
+
+Sequence Diagram
+<img width="925" alt="Screen Shot 2021-05-10 at 3 29 19 PM" src="https://user-images.githubusercontent.com/10037700/117732309-82ac1280-b1a4-11eb-861e-0e2b1dd21ade.png">
+
+Database Schema (Original)
+<img width="1093" alt="Screen Shot 2021-05-10 at 3 29 49 PM" src="https://user-images.githubusercontent.com/10037700/117732372-9d7e8700-b1a4-11eb-9be8-3dea94369860.png">
+
+Database Schema (Current)
+<img width="453" alt="Screen Shot 2021-05-10 at 3 30 33 PM" src="https://user-images.githubusercontent.com/10037700/117732441-c1da6380-b1a4-11eb-8fd2-0b47eb1abf70.png">
+
+
+
