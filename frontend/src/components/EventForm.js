@@ -99,7 +99,7 @@ class EventForm extends Component {
         let rows = events.map(event => 
             <tr key={event.id}>
                 <td>{event.name}</td>
-                <td><Moment date={event.event_date} format="DD/MM/YYYY" /></td>
+                <td ><Moment date={event.event_date} format="DD/MM/YYYY" /></td>
                 <td><Button size="sm" color="secondary" onClick={() => this.editEvent(event.id)} >Modify</Button></td>
                 <td><Button size="sm" color="danger" onClick={() => this.remove(event.id)}>Delete</Button></td>
             </tr>   

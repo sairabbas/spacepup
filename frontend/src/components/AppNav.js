@@ -9,13 +9,13 @@ class AppNav extends Component {
                 <NavbarBrand href="/">Spacepup</NavbarBrand>
                 <Nav className="ml-auto" navbar>
                 <NavItem>
-                    <NavLink href="/">Home</NavLink>
+                    <NavLink style={{color: 'white', backgroundColor: 'grey', alignSelf: 'flex-start'}} href="/">Home</NavLink>
                 </NavItem>
                 <NavItem>
-                    <NavLink href="/user">User</NavLink>
+                    <NavLink style={{color: 'white', backgroundColor: 'grey', alignSelf: 'flex-start'}} href="/user">User</NavLink>
                 </NavItem>
                 <NavItem>
-                <NavLink href="/admin">Admin</NavLink>
+                <NavLink style={{color: 'white', backgroundColor: 'grey', alignSelf: 'flex-start'}} href="/admin">Admin</NavLink>
                 </NavItem>
                 </Nav>
                 </Navbar>

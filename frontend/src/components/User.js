@@ -38,10 +38,10 @@ class User extends Component {
                 {
                     Events.map(event => 
                         <div id={event.id} className="boxed" style={{ justifyContent: 'center'}}>
-                            <h3>{event.name}</h3>
-                            <Moment format="DD/MM/YYYY">{event.event_date}</Moment>
+                            <h3 style={{ backgroundColor: 'ghostwhite', alignSelf: 'flex-start'}}>{event.name}</h3>
+                            <Moment style={{ backgroundColor: 'ghostwhite', alignSelf: 'flex-start'}} format="DD/MM/YYYY">{event.event_date}</Moment>
                             <hr />
-                            <p>Blew up and I'm in the city still, I'm still here, dawg</p>
+                            <p style={{ backgroundColor: 'ghostwhite', alignSelf: 'flex-start'}}>The Sample Room is a one-room suite with queen-size bed and comfortable seating area. It is located downstairs with an outside entrance and is wheelchair assessable. It has a 39-inch flat screen TV and electric fireplace.</p>
                             <Button 
                                 color="primary"
                                 onClick={() => this.bookEvent(event.id)}
