@@ -54,7 +54,7 @@ How to run the project:
 4) In terminal, navigate to frontend directory, Run Command "npm install" followed by "npm start"
 5) Navigate to http://localhost:3000 in your browser of choice*
 
-* *For Best Results use Google Chrome*
+\* *For Best Results use Google Chrome*
 ------------------------------------------------------------------
 General Guidelines
 
